@@ -24,7 +24,7 @@ This is similar to OPS, but combines slugging and OBP a bit more accurutely rath
 
 Expected bases will be how I measure the success of various teams, players and strategies
 
-Expected Bases = (1B+2B*2+3B*3+HR*4)/Plate Appearances
+##### Expected Bases = (1B+2B*2+3B*3+HR*4)/Plate Appearances
 
 ### Pitcher Fatigue
 I looked at how a pitchers output changes with the more pitches he throws in a single game. One would expect, that the more pitches thrown the slower and less productive he'll be. This is the hypothesis I wanted to test. 

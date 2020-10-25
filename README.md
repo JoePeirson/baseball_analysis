@@ -5,7 +5,7 @@ An analysis of the 2020 mlb season. Looking at inefficiencies and assessing the 
 I will detail how I collected the data, analysed the data and the conclusions I reached.
 
 # Data Collection
-I web scraped the data from the espn play by play commentaries using scrapy.
+I web scraped the data from the espn play by play commentaries using scrapy from the 2020 mlb season minus the world series.
 
 <p float="left">
   <img width="400" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97102294-895db700-16a4-11eb-90c3-ee71ea4c44f7.png"> <img width="500" alt="Screenshot 2020-10-11 at 12 21 18" src="https://user-images.githubusercontent.com/72214007/97102699-03dc0600-16a8-11eb-958a-f029964d0e2c.png">
@@ -13,6 +13,13 @@ I web scraped the data from the espn play by play commentaries using scrapy.
 </p>
 
 # Data Analysis
+### Metrics - Expected Bases
+I have created my own metric called expected bases. Expected bases calculates each players return (or output) from facing a pitcher.
+For example, if a player scores a single, a walk or any other play that results in him getting to first base, this equals one expected base. If a player scores a double, this equals two and so on. If a player is struck out or caught, or cannot make a play, this will be zero.
+I sum up a players total expected bases and divide it by the number of trips to plate, and this gives me and expected bases for each hitter, and expected bases given up for each pitcher.
+This is similar to OPS, but combines slugging and OBP a bit more accurutely rather than adding them together.
+Expected bases will be how I measure the success of various teams, players and strategies
+
 ### Pitcher Fatigue
 I looked at how a pitchers output changes with the more pitches he throws in a single game. One would expect, that the more pitches thrown the slower and less productive he'll be. This is the hypothesis I wanted to test. 
 I assumed that a pitchers quality would started to fall before 100 pitches, but quality only falls after 110 pitches. This probably shows that pitching strategy is fairly efficient, and pitchers are not being overused. The results were very similar when subsetting for just starting pitchers.
@@ -59,5 +66,5 @@ When a pitcher has five main pitches, all of which he throws over 15% of the tim
 
 <p float="left">
   <img width="300" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97104390-d4cb9180-16b3-11eb-9c2e-e1527daecf83.png"> <img width="300" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97104405-ec0a7f00-16b3-11eb-80fe-e92395be8686.png"> 
-  <figcaption>Fig.9 - Best pitchers/batters (count is each visit to the plate by a batter)</figcaption>
+  <figcaption>Fig.9 - Best pitchers/batters (count is every at_bat+walks)</figcaption>
 </p>

@@ -13,7 +13,7 @@ I web scraped the data from the espn play by play commentaries using scrapy.
 </p>
 
 # Data Analysis
-#### Pitcher Fatigue
+### Pitcher Fatigue
 I looked at how a pitchers output changes with the more pitches he throws in a single game. One would expect, that the more pitches thrown the slower and less productive he'll be. This is the hypothesis I wanted to test. 
 I assumed that a pitchers quality would started to fall before 100 pitches, but quality only falls after 110 pitches. This probably shows that pitching strategy is fairly efficient, and pitchers are not being overused. The results were very similar when subsetting for just starting pitchers.
 <p float="left">
@@ -21,7 +21,7 @@ I assumed that a pitchers quality would started to fall before 100 pitches, but 
   <figcaption>Fig.3 - Pitcher fatigue</figcaption>
 </p>
 
-#### Pitch Count
+### Pitch Count
 The histogram for pitch count is as expected. When the pitch count is in the batters favour, expected bases are higher, and visa versa.
 
 But there is space for some efficiency gains in batting. For example, at a pitch count of 3-1, a batter can get a walk if he gets a ball in one of the next three balls. A batters expected bases at a 3-1 count is 0.719, but when choosing to play safe and avoid attmepting to hit a players expected bases go up to 0.752. Obviously, this strategy has to be limited due to pitchers becoming aware of the strategy.
@@ -31,7 +31,7 @@ But there is space for some efficiency gains in batting. For example, at a pitch
   <figcaption>Fig.4 - Pitch count  /   Fig.5 - Inefficiency</figcaption>
 </p>
 
-#### Pitch Velocity
+### Pitch Velocity
 When pitching 97mph and faster the efficiency of a pitcher starts to improves rapidly when measured against expected bases.
 
 <p float="left">

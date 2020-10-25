@@ -15,9 +15,13 @@ I web scraped the data from the espn play by play commentaries using scrapy from
 # Data Analysis
 ### Metrics - Expected Bases
 I have created my own metric called expected bases. Expected bases calculates each players return (or output) from facing a pitcher.
+
 For example, if a player scores a single, a walk or any other play that results in him getting to first base, this equals one expected base. If a player scores a double, this equals two and so on. If a player is struck out or caught, or cannot make a play, this will be zero.
+
 I sum up a players total expected bases and divide it by the number of trips to plate, and this gives me and expected bases for each hitter, and expected bases given up for each pitcher.
+
 This is similar to OPS, but combines slugging and OBP a bit more accurutely rather than adding them together.
+
 Expected bases will be how I measure the success of various teams, players and strategies
 
 ### Pitcher Fatigue

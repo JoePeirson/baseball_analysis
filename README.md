@@ -24,6 +24,8 @@ This is similar to OPS, but combines slugging and OBP a bit more accurutely rath
 
 Expected bases will be how I measure the success of various teams, players and strategies
 
+Expected Bases = (1B+2B*2+3B*3+HR*4)/Plate Appearances
+
 ### Pitcher Fatigue
 I looked at how a pitchers output changes with the more pitches he throws in a single game. One would expect, that the more pitches thrown the slower and less productive he'll be. This is the hypothesis I wanted to test. 
 I assumed that a pitchers quality would started to fall before 100 pitches, but quality only falls after 110 pitches. This probably shows that pitching strategy is fairly efficient, and pitchers are not being overused. The results were very similar when subsetting for just starting pitchers.
@@ -70,5 +72,5 @@ When a pitcher has five main pitches, all of which he throws over 15% of the tim
 
 <p float="left">
   <img width="300" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97104390-d4cb9180-16b3-11eb-9c2e-e1527daecf83.png"> <img width="300" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97104405-ec0a7f00-16b3-11eb-80fe-e92395be8686.png"> 
-  <figcaption>Fig.9 - Best pitchers/batters (count is every at_bat+walks)</figcaption>
+  <figcaption>Fig.9 - Best pitchers/batters (count is every plate appearance)</figcaption>
 </p>

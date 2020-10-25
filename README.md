@@ -53,3 +53,11 @@ When a pitcher has five main pitches, all of which he throws over 15% of the tim
   <img width="300" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97104127-b5336980-16b1-11eb-9432-82356ce0ec4d.png"> 
   <figcaption>Fig.8 - Pitch success with good and bad variety</figcaption>
 </p>
+
+### Best Pitchers and Batters
+
+
+<p float="left">
+  <img width="300" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97104390-d4cb9180-16b3-11eb-9c2e-e1527daecf83.png"> <img width="300" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97104405-ec0a7f00-16b3-11eb-80fe-e92395be8686.png"> 
+  <figcaption>Fig.9 - Best pitchers/batters (count is each visit to the plate by a batter)</figcaption>
+</p>

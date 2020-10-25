@@ -28,5 +28,5 @@ But there is space for some efficiency gains in batting. For example, at a pitch
 
 <p float="left">
   <img width="400" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97103104-ccbb2400-16aa-11eb-9a9f-d19bd58fdcff.png"> <img width="400" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97103241-7c909180-16ab-11eb-9a3e-85d238288824.png">
-  <figcaption>Fig.5 - Pitch count</figcaption>
+  <figcaption>Fig.4 - Pitch count  /   Fig.5 - Inefficiency</figcaption>
 </p>

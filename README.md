@@ -48,6 +48,7 @@ Pitchers who throw five different pitches regulary (each pitch more than 15% of 
 </p>
 When a pitcher has three main pitches, all of which he throws over 25% of the time, the majority of his pitch types are much more successful versus the average.
 When a pitcher has five main pitches, all of which he throws over 15% of the time, the majority of his pitch types are much less successful versus the average.
+
 <p float="left">
   <img width="300" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97104127-b5336980-16b1-11eb-9432-82356ce0ec4d.png"> 
   <figcaption>Fig.8 - Pitch success with good and bad variety</figcaption>

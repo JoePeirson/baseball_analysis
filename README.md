@@ -22,7 +22,7 @@ I assumed that a pitchers quality would started to fall before 100 pitches, but 
 </p>
 
 #### Pitch Count
-The histogram for pitch count is as expected. When the pitch count is in the batters favour, expected bases are higher, and visa versa.
+The histogram for pitch count is as expected. When the pitch count is in the batters favour, expected bases are higher, and visa versa. <br>
 But there is space for some efficiency gains in batting. For example, at a pitch count of 3-1, a batter can get a walk if he gets a ball in one of the next three balls. A batters expected bases at a 3-1 count is 0.719, but when choosing to play safe and avoid attmepting to hit a players expected bases go up to 0.752. Obviously, this strategy has to be limited due to pitchers becoming aware of the strategy.
 
 <p float="left">

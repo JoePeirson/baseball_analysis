@@ -32,7 +32,7 @@ But there is space for some efficiency gains in batting. For example, at a pitch
 </p>
 
 ### Pitch Velocity
-When pitching 97mph and faster the efficiency of a pitcher starts to improves rapidly when measured against expected bases.
+When pitching 97mph and faster the efficiency of a pitcher starts to improves rapidly when measured against expected bases. This holds true when subsetting just for fast balls thrown.
 
 <p float="left">
   <img width="400" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97103526-4d7b1f80-16ad-11eb-808c-47539de44cd9.png"> 

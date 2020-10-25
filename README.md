@@ -30,3 +30,11 @@ But there is space for some efficiency gains in batting. For example, at a pitch
   <img width="400" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97103104-ccbb2400-16aa-11eb-9a9f-d19bd58fdcff.png"> <img width="400" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97103241-7c909180-16ab-11eb-9a3e-85d238288824.png">
   <figcaption>Fig.4 - Pitch count  /   Fig.5 - Inefficiency</figcaption>
 </p>
+
+#### Pitch Velocity
+When pitching 97mph and faster the efficiency of a pitcher starts to improves rapidly when measured against expected bases.
+
+<p float="left">
+  <img width="400" alt="Screenshot 2020-10-11 at 12 11 59" src="https://user-images.githubusercontent.com/72214007/97103526-4d7b1f80-16ad-11eb-808c-47539de44cd9.png"> 
+  <figcaption>Fig.6 - Pitch Velocity</figcaption>
+</p>
